@@ -22,7 +22,7 @@ body {
     text-align: center;
     align-items: center;
     color: black;
-    background-color: white;
+    background-color: lightblue;
 
 }
 #CoverArt {
@@ -30,6 +30,14 @@ body {
     height: 600px;
     object-fit: cover;
     border-radius: 50px;
+}
+#Actors {
+    display: inline-block;
+    text-align: left;
+}
+#Trailer {
+    display: block;
+    margin: 20px auto;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
